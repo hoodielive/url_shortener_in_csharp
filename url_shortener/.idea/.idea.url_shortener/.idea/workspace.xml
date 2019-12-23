@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa54d21a-f4ca-43ce-8120-4064c63ed173" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/url_shortener/Views/Home/Header.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/url_shortener/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/url_shortener/Controllers/HomeController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +13,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/url_shortener/Views/Shared/_Layout.cshtml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/url_shortener/Global.asax.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -26,6 +30,9 @@
     <setting file="file://$PROJECT_DIR$/url_shortener/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03C98CFC-8623-445A-8DB7-B66C6FFA5DEF/ae/5cbd00fb/Controller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/url_shortener/Views/Home/Header.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/url_shortener/Global.asax.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/url_shortener/Views/Web.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/url_shortener/Views/Home/Contact.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/url_shortener/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/url_shortener/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/url_shortener/Views/Home/About.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -33,10 +40,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/url_shortener/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/url_shortener/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/url_shortener/Views/Home/Header.cshtml" />
         <option value="$PROJECT_DIR$/url_shortener/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/url_shortener/Controllers/HomeController.cs" />
       </list>
     </option>
   </component>
@@ -66,37 +73,6 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="url_shortener" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="url_shortener" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="url_shortener" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="url_shortener" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="url_shortener" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="url_shortener" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="url_shortener" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="url_shortener" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="url_shortener" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Home" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="url_shortener" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="url_shortener" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Shared" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -109,6 +85,7 @@
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -156,12 +133,12 @@
       <updated>1576963227089</updated>
       <workItem from="1576963232017" duration="265000" />
       <workItem from="1576963624244" duration="215000" />
-      <workItem from="1576963893896" duration="1292000" />
+      <workItem from="1576963893896" duration="2382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1772000" />
+    <option name="totallyTimeSpent" value="2862000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -174,13 +151,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18359375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.32896462" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -229,15 +206,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/url_shortener/Controllers/HomeController.cs">
+    <entry file="file://$PROJECT_DIR$/url_shortener/Views/Shared/_Layout.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="684">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/url_shortener/Views/Home/About.cshtml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/url_shortener/Views/Home/Index.cshtml">
       <provider selected="true" editor-type-id="text-editor">
@@ -248,13 +222,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/url_shortener/Views/Home/Header.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="228">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/url_shortener/Views/Shared/_Layout.cshtml">
+    <entry file="file://$PROJECT_DIR$/url_shortener/Views/Home/Contact.cshtml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/url_shortener/Views/Home/About.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/url_shortener/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/url_shortener/Views/Web.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/url_shortener/Global.asax.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

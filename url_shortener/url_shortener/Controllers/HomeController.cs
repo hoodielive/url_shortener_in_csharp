@@ -15,7 +15,7 @@ namespace url_shortener.Controllers
         public string token { get; set; }
     }
     
-    public classj HomeController : Controller
+    public class HomeController : Controller
     {
          // Index Route 
         [HttpGet, Route("/")]
